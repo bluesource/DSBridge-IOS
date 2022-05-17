@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "dsbridge/*"
+  s.source_files  =  "Sources/DSBridge/*"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "dsbridge/*.h"
+  s.public_header_files = "Sources/DSBridge/include/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
